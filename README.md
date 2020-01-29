@@ -17,15 +17,15 @@ TypeScript é um Super Set JavaScript Que adiciona tipagem estática ao JavaScri
 ## Get Started
 
 --Install--
-'''npm install -g typescript'''
+```npm install -g typescript```
 
 --Execute--
 
-'''tsc nameFile.ts'''
+```tsc nameFile.ts```
 
 ## Exemplos
 
-'''
+```
 class default {
 
   //tipos
@@ -37,4 +37,4 @@ class default {
   array: Array<any>; 
 
 }
-'''
+```
