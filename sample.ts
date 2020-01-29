@@ -1,11 +1,14 @@
 class default {
 
-  //tipos
-
   texto: string;
-  numero: number;
-  qualquer: any;
-  boleano: boolean;
-  array: Array<any>; 
+ 
+  constructor(){
+    this.fn_js();
+  }
+
+  fn_js(){
+    this.texto = 'Apenas um texto';
+    return console.log(texto);
+  }
 
 }
